@@ -1,0 +1,62 @@
+.em_p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+}
+.n_p{
+    color:gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+#Index_body{
+    background-image: url("2.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    padding: 10%;
+    margin: auto;
+}
+#h1_id{
+    color: darkorange;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+}
+#h4_id{
+    color: black;
+    text-emphasis-color: black;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    margin-top: 25%;
+}
+#a_id{
+    color: black;
+    text-emphasis-color: black;
+}
+#cont_div{
+    text-align: left; 
+	background-color: #99e293;
+	border-radius: 45px;
+	width:750px;
+	height: 500px;
+	margin: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#text_div{
+    text-align: left; 
+	background-color:wheat;
+	border-radius: 20px;
+	width:960px;
+	height: 800px;
+    margin: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
