@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="MJW">
+    <meta name="keywords" content="blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>A Little Rabbit House</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div id="head_d">
+        <a id="pic_a" target="_blank" href="http://www.whu.edu.cn" >
+            <img src="imgs/whu.png" width="75px" height="75px">
+        </a>
+        <div id="WebName_d">
+            MY BLOG
+        </div>
+        <a class="headLink_a" href="main.html">首页</a>
+        <a class="headLink_a" targrt="_blank" href="content.html" >内容</a>
+        <a class="headLink_a" targrt="_blank" href="others.html" >其他</a>
+        <a class="headLink_a" targrt="_blank" href="about.html" >关于</a>
+        <a class="headLink_a" targrt="_blank" href="comments.html">留言</a>
+    </div>
+    <div id="mainFrame_d">
+        
+        <!-- <div style="padding-left: -10%; margin-left: 0; height: 100vh;"> -->
+            <div id = "float_d">
+                <!-- <span class="side_s">
+                </span> --> 
+               
+                <img src="imgs/keli.png" width="350px"style="bottom: 0px;position:absolute;left:-15%">
+                
+            </div>
+            <span class="info_s">
+                <p style="font-size: 40px; font-weight: bolder;position: relative;margin-top: 0px;">
+                    Welcome to <br>the blog!
+                </p>
+                <br>
+                <p style="font-size: large; font-weight:normal; max-width: 100%;height: inherit;text-overflow: clip;">
+                    &emsp;&emsp;非典型博客。<br>
+                    一般情况下记录一些学习笔记和资料,
+                    有时会被用来做收集一些奇奇怪怪的的东西,
+                    偶尔会被用来进行web的测试功能。<br>
+                    &emsp;&emsp;感谢您的留言。
+                </p>
+            </span>
+            <div id = "arrowsFrame" onclick="scoll_click()" >
+                <div onclick="scoll()" class = "arrow1"></div>
+                <div onclick="scoll()" onmouseover="scoll_hover()" class = "arrow2"></div>
+                <div onclick="scoll()" class = "arrow3"></div>
+            </div>
+            <div id = "enter_d">
+                <div >
+                    <a href="content.html" id = "enter_button_d">现 在 探 索</a>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+    <div id = "recommend">
+        <div id = "panel" >
+            helloworld!!!
+            <div class = "line">
+                <span class = "row">
+                    <a>
+
+                    </a>
+                </span>
+                <span class = "row">
+                    <a>
+
+                    </a>
+                </span>
+            </div>
+            <div class = "line">
+                <span>
+                    <a>
+
+                    </a>
+                </span>
+                <span>
+                    <a>
+                        
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
