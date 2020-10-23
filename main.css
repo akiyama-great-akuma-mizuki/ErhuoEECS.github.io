@@ -233,3 +233,22 @@ div#panel{
     margin-top: -10%;
     box-shadow: 10px 10px 7px #c0c0c0;
 }
+#PanelHead{
+    text-align: center;
+    position: absolute;
+    background-color: rgb(58, 172, 166);
+    font-size: 30px;
+    color: rgb(212, 205, 196);
+    text-shadow: dimgrey;
+    width: fit-content;
+    width: 150px;
+    top: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left:50%;
+    height: fit-content;
+    line-height: normal;
+    margin-left: -75px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
