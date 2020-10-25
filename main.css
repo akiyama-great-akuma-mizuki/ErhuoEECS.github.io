@@ -69,7 +69,7 @@ span.info_s{
     height: 120px;
     top: 80px;
     color: black;
-    background-color: rgb(222, 184, 135,0.65);
+    background-color: rgba(222, 184, 135,0.65);
     padding-left: 10px;
     padding-right: 10px;
     border-bottom-left-radius: 20px;
@@ -221,7 +221,7 @@ div.arrow3{
     vertical-align: middle;
 }
 div#panel{
-    background: rgb(128, 128, 128,0.7);
+    background: rgba(128, 128, 128,0.7);
     position: absolute;
     width: 50%;
     height: 50%;
@@ -278,7 +278,7 @@ span.row{
 span.row:hover{
     height: fit-content+5px;
     width: 200px;
-    background-color: rgb(143, 209, 45,0.6);
+    background-color: rgba(143, 209, 45,0.6);
 }
 a.reLink{
     position: relative;
