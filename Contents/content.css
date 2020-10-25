@@ -1,0 +1,80 @@
+#frame_d{
+    /* 设置背景图像 */
+    background-image: url("../imgs/bg.jpg");
+    background-attachment: scroll ;
+    background-size: cover;/*图片覆盖*/
+    background-position: center;/*这个很重要，消除偏移量*/
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100%;
+    line-height: 80px;
+    position: absolute;
+    margin:0px;
+    overflow: hidden;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+#cont_d{
+    margin-top: 0%;
+    text-align: center;
+    position: relative;
+}
+div#panel{
+    background: rgb(128, 128, 128,0.7);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top:50%;
+    margin-left: -25%;
+    margin-top: -10%;
+    box-shadow: 10px 10px 7px #c0c0c0;
+}
+div.line{
+    line-height: normal;
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    vertical-align: center;
+    text-align: center;
+}
+span.row{
+    text-align: center;
+    position: relative;
+    width: 130px;
+    height: fit-content;
+    vertical-align: center;
+    color: white;
+    top: 30%;
+    background-color: rgb(143, 209, 45);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    transition:height 1s ease-out,width 2s,background-color 2s ease-out;
+    -moz-transition:height 1s ease-out,width 2s,background-color 2s ease-out; /* Firefox 4 */
+    -webkit-transition:height 1s ease-out,width 2s,background-color 2s ease-out; /* Safari and Chrome */
+    -o-transition:height 1s ease-out,width 2s,background-color 2s ease-out; /* Opera */ 
+}
+span.row:hover{
+    height: fit-content+5px;
+    width: 200px;
+    background-color: rgb(143, 209, 45,0.6);
+}
+a.reLink{
+    position: relative;
+    
+    font-size: 30px;
+    user-select: none;
+    text-emphasis: none;
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    transition: text-shadow 2s;
+    -moz-transition: text-shadow 2s;
+    -webkit-transition: text-shadow 2s;
+}
+a.reLink:hover{
+    text-shadow: 0 0 20px #69e0ff, 0 0 30px #69e0ff, 0 0 60px #69e0ff;
+}
